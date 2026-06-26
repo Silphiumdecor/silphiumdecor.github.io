@@ -1,1 +1,1 @@
-document.querySelectorAll('nav a').forEach(a=>a.addEventListener('mouseover',()=>a.style.color='#d4af37'));
+document.querySelectorAll('.card').forEach(c=>c.onmouseenter=()=>c.style.transform='translateY(-6px)');document.querySelectorAll('.card').forEach(c=>c.onmouseleave=()=>c.style.transform='translateY(0)');
