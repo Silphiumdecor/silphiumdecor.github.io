@@ -35,3 +35,53 @@
 .top-bar a:hover{
     color:var(--primary);
 }
+/* ===== Navigation ===== */
+
+.navbar{
+    background:var(--surface);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 5%;
+    border-bottom:1px solid rgba(201,162,39,.25);
+}
+
+.logo img{
+    height:50px;
+    width:auto;
+}
+
+.navbar nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+    margin:0;
+    padding:0;
+}
+
+.navbar nav ul li{
+    list-style:none;
+}
+
+.navbar nav a{
+    color:var(--text);
+    text-decoration:none;
+    font-weight:500;
+}
+
+.navbar nav a:hover{
+    color:var(--primary);
+}
+
+.shop-btn{
+    background:var(--primary);
+    color:#121317;
+    padding:10px 24px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.shop-btn:hover{
+    background:var(--primary-light);
+}
