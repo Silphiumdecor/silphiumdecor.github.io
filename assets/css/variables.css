@@ -1,1 +1,19 @@
+:root {
+    /* Brand Colors */
+    --primary-color: #4C7A3F;
+    --secondary-color: #B68D40;
 
+    /* Neutral Colors */
+    --background-color: #F8F7F3;
+    --surface-color: #FFFFFF;
+
+    /* Text Colors */
+    --text-color: #2F2F2F;
+    --text-light: #666666;
+
+    /* Borders */
+    --border-color: #E5E5E5;
+
+    /* Fonts */
+    --font-primary: "Poppins", sans-serif;
+}
